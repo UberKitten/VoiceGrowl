@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+  <title>T3h Ub3r K1tten's Google Voice Projects</title>
+  <style type="text/css">
+   div {
+    text-align: center;
+   }
+   ul {
+    list-style-type:none;
+   }
+   .limit {
+    width: 600px;
+    margin: auto;
+   }
+  </style>
+ </head>
+
+ <body> 
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-967859-7']);
+   _gaq.push(['_trackPageview']);
+ 
+   (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+   })();
+  </script>
+  <div>
+   <h1>T3h Ub3r K1tten's Google Voice Projects</h1>
+   <h2>This is a listing of all my <a href="http://google.com/voice">Google Voice</a> projects</h2>
+   <h3>
+    I'm a coder, not a designer, so everything looks ugly.<br />
+    Want to suggest a feature or new project?<br />
+    Just Twitter <a href="http://twitter.com/home?status=@t3hub3rk1tten%20">@t3hub3rk1tten</a> or send me an <a href="mailto:google-voice@ub3rk1tten.com">email</a>, I'll listen.
+   </h3>
+   Any project marked "on hold" means I either have run into a technical feasibility problem with the project, or I have prioritized it behind more important projects.<br />
+  </div>
+
+  <div class="limit">
+   <ul>
+    <li>
+     <strong><a href="phpgooglevoice/">PHPGoogleVoice</a></strong><br />
+     <strong>Status: 100%</strong><br />
+     A PHP library/API to scrape and interact with the Google Voice website.<br />
+     Warning: Not being updated very much, but patches are welcome.
+    </li><br />
+
+    <li>
+     <strong><a href="voicegrowl/">VoiceGrowl</a></strong><br />
+     <strong>Status: 100%</strong><br />
+     A hosted service to send Google Voice SMS messages instantly to Growl or Prowl.<br />
+     Also supports sending to a custom URL, which means you can script it however you want.
+    </li><br />
+    
+    <li>
+     <strong>SMS over Email</strong><br />
+     <strong>Status: POP 90%, SMTP 75%, discontinued</strong><br />
+     Was going to be hosted POP and SMTP servers to interface with Google Voice, until they released email forwarding.
+    </li>
+   </ul>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,11 @@
+<Files index.php>
+ php_flag engine on
+</Files>
+
+<Files register.php>
+ php_flag engine on
+</Files>
+
+<Files email.php>
+ php_flag engine on
+</Files>

@@ -1,0 +1,23 @@
+<Files index.php>
+    php_flag engine on
+</Files>
+
+<Files login.php>
+    php_flag engine on
+</Files>
+
+<Files email.php>
+    php_flag engine on
+</Files>
+                                                 
+<Files return.php>
+    php_flag engine on
+</Files>
+
+<Files testprowl.php>
+    php_flag engine on
+</Files>
+
+<Files gmailvoice.php>
+    php_flag engine on
+</Files>

@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^gv.ub3rk1tten.com$
+RewriteRule ^(.*)$ http://googlevoice.ub3rk1tten.com/$1 [R=301,L] 
+
+<Files index.php>
+ php_flag engine on
+</Files>
