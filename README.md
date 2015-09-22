@@ -10,3 +10,7 @@ The service worked great and took only a few seconds end-to-end for new messages
 # PHPGoogleVoice
 
 A PHP library/API to scrape and interact with the Google Voice website. Unfortunately, the code appears to have been lost as the Facebook + Joyent free code repositories have all disappeared:
+https://web.archive.org/web/20100221054305/http://botsfordcr.facebook.joyent.us/svn/PHPGoogleVoice
+
+# SMS over Email
+Was going to be hosted POP and SMTP servers developed in Python to interface with Google Voice (provides Google Voice messages in a POP format, allowing any email client to access your inbox like text messages were emails), until they released email forwarding and it was no longer needed. Unfortunately code has also been lost. POP was 90% finished, SMTP 75%. A very fun introduction for me to POP and SMTP, created almost entirely by reading RFCs.
